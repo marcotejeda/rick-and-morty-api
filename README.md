@@ -1,5 +1,8 @@
 # Get the Rick and Morty API - React
 
+### `npm install`
+Install the dependencies in the local node_modules folder.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
