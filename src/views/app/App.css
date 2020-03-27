@@ -1,0 +1,27 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.App-secction {
+    background-color: white;
+    border-radius: 10px;
+    width: 80vw;
+    max-width: 960px;
+    -webkit-box-shadow: 0px 5px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 20px -10px rgba(0,0,0,0.75);
+}
+
+
+@media (max-height: 600px) { 
+    .App {
+        align-items: flex-start;
+    }
+    .App-secction {
+        margin: 30px 0;
+    }
+}

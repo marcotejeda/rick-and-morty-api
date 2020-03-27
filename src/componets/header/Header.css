@@ -1,0 +1,13 @@
+header h1{
+    color: #36718f;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 50px 20px 0;
+    text-align: center;
+}
+header p{
+    color: #36718f;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.Card {
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 300px;
+    margin: 20px 30px 20px 0;
+    transition: all .2s ease-in-out;
+    position: relative;
+}
+.Card:hover {
+    transform: scale(1.1);
+}
+
+.Card-image {
+    display: flex;
+}
+
+.Card-image img {
+    border-radius: 50%;
+    filter: blur(3px);
+    opacity: 0.4;
+}
+
+.Card-image:hover img{
+    filter: blur(0px);
+    opacity: 1;
+}
