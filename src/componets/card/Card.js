@@ -1,13 +1,13 @@
 import React from 'react';
 import './Card.css';
 
-import api from './../../api/api';
+import Api from './../../api/api';
 
 class Card extends React.Component {
 
     
     handlerCard(id) {
-        api.getCharacterById(id).then((data) => {
+        Api.getCharacterById(id).then((data) => {
             this.props.callbackCharacterDetail(data)
         })
     }

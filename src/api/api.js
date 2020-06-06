@@ -9,7 +9,7 @@ async function getCharacterById(id) {
 }
 
 
-module.exports = {
+export default {
     getAllCharacters,
     getCharacterById
 }
