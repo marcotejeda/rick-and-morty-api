@@ -3,7 +3,7 @@ import './App.css';
 
 import Api from './../../api/api';
 import Header from './../../componets/header/header'
-import Slider from './../../componets/slider/Slider';
+//import Slider from './../../componets/slider/Slider';
 import Detail from './../../componets/character/character-detail'
 
  
@@ -59,7 +59,7 @@ class App extends React.Component {
       <div className="App">
         <section className="App-secction">
           <Header />
-          { showSlider ? ( <Slider  listItems={characters} callbackCharacterDetail={this.showCharacterDetail.bind(this)} /> ) : null }
+          { /*showSlider ? ( <Slider  listItems={characters} callbackCharacterDetail={this.showCharacterDetail.bind(this)} /> ) : null */}
         </section>
         { showDetail ? ( <Detail characterDetail={characterDetail}  callbackCloseCharacter={this.closeCharacterDetail.bind(this)} /> ) : null }
       </div>
