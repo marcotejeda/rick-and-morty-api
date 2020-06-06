@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Api from './../../api/api';
-import Header from './../../componets/header/Header';
+//import Header from './../../componets/header/Header';
 import Slider from './../../componets/slider/Slider';
 import Detail from './../../componets/character/CharacterDetail';
 
@@ -58,7 +58,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <section className="App-secction">
-          <Header />
+          {/*<Header />*/}
           { showSlider ? ( <Slider  listItems={characters} callbackCharacterDetail={this.showCharacterDetail.bind(this)} /> ) : null }
         </section>
         { showDetail ? ( <Detail characterDetail={characterDetail}  callbackCloseCharacter={this.closeCharacterDetail.bind(this)} /> ) : null }
