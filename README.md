@@ -8,4 +8,4 @@
 `npm run start`
 
 ## Design preview
-![Design preview for the Rick and Morty API - React](https://repository-images.githubusercontent.com/250421548/88150780-a760-11ea-85a4-7e26cdec53a1)
+![Design preview for the Rick and Morty API - React](https://repository-images.githubusercontent.com/270182699/2cbe4480-a848-11ea-83b5-8c97571161b8)
