@@ -5,17 +5,17 @@ import Card from './../card/card'
 function Slider(props) {
     
   const [position, setPosition] = useState(0)
-  const {listItems, callbackCharacterDetail} = props
+  const {items, onClick} = props
 
-  const cardList = listItems.map((e, i) => 
+  const cardList = items.map((e, i) => 
     <Card 
       key={e.id} 
-      character={listItems[i]} 
-      callbackCharacterDetail={callbackCharacterDetail} />
+      character={items[i]}
+      onClick={onClick} />
   );
 
   function handlerSliderArrow(arrow) {
-    const lastIndex = listItems.length - 1
+    const lastIndex = items.length - 1
     const listCard = document.querySelectorAll('.Card')
     let index = null;
     

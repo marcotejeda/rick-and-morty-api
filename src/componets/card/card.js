@@ -6,7 +6,7 @@ function Card(props) {
 
   function handlerCard(id) {
     Api.getCharacterById(id).then((data) => {
-      props.callbackCharacterDetail(data)
+      props.onClick(data)
     })
   }
 
