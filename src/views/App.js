@@ -24,14 +24,14 @@ function App() {
 
   function showCharacterDetail(data) {
     setCharacterDetail(data)
-    setShowSlider(false)
+    //setShowSlider(false)
     setShowDetail(true)
   }
 
   function closeCharacterDetail() {
     setCharacterDetail({})
     setShowDetail(false)
-    setShowSlider(true)
+    //setShowSlider(true)
   }
 
   return (
